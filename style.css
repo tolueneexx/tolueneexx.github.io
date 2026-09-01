@@ -138,3 +138,37 @@ grid-template-columns:1fr
     font-size: 1.4rem;
   }
 }
+.work-filters{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin-bottom:28px
+}
+
+.filter-button{
+padding:9px 16px;
+border:1px solid var(--line);
+border-radius:999px;
+background:transparent;
+color:var(--muted);
+font:inherit;
+font-size:.85rem;
+font-weight:700;
+cursor:pointer;
+transition:.2s
+}
+
+.filter-button:hover{
+color:var(--text);
+border-color:#46515e
+}
+
+.filter-button.active{
+background:var(--text);
+color:var(--bg);
+border-color:var(--text)
+}
+
+.work-card.hidden{
+display:none
+}
