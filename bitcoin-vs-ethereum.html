@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A comparison of Bitcoin and Ethereum, exploring their architecture, consensus mechanisms, transaction models, monetary policies, ecosystems and use cases.">
+  <title>Bitcoin vs Ethereum: Key Differences, How They Work, and Their Ecosystems | Zeekwrites</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="index.html">ZEEKWRITES<span>.</span></a>
+      <div class="nav-links"><a href="index.html#work">Portfolio</a><a href="index.html#about">About</a><a href="index.html#contact">Contact</a></div>
+    </nav>
+  </header>
+  <main class="article-shell">
+    <a class="article-back" href="index.html#work">← Back to selected work</a>
+    <header class="article-header">
+      <p class="article-kicker">Web3 &amp; Blockchain · Technical Article</p>
+      <h1>Bitcoin vs Ethereum: Key Differences, How They Work, and Their Ecosystems</h1>
+      <p class="article-deck">A comparison of Bitcoin and Ethereum, exploring their architecture, consensus mechanisms, transaction models, monetary policies, ecosystems and use cases.</p>
+      <p class="article-byline">Written by FAWOLE TOLUWANIMI EZEKIEL · ZEEKWRITES</p>
+    </header>
+    <article class="article-content">
+      <p>Bitcoin and Ethereum are two of the most influential blockchain ecosystems in the cryptocurrency industry. Although both rely on decentralized networks and cryptographic technology, they were designed to solve different problems.</p>
+<p>Bitcoin focuses on decentralized digital money and peer-to-peer value transfers. Ethereum takes a broader approach by introducing smart contracts and a programmable blockchain environment where developers can build decentralized applications.</p>
+<p>If you're exploring Web3 or cryptocurrency, understanding the difference between Bitcoin and Ethereum is essential. Both networks support digital assets and operate without traditional central authorities. However, their purposes, technical designs, transaction models, monetary policies, and ecosystems differ significantly.</p>
+<p>So, Bitcoin vs Ethereum: What makes them different, how do they work, and why are they important to Web3?</p>
+<p>Let's compare the two, starting with their core purposes and how their networks operate.</p>
+<h2>What Is Bitcoin?</h2>
+<p>Bitcoin is a decentralized digital currency introduced in 2009 by an individual or group using the pseudonym Satoshi Nakamoto.</p>
+<p>It was designed to enable peer-to-peer payments without requiring banks or other financial institutions to process and verify every transaction.</p>
+<p>Bitcoin introduced a way to transfer digital value using a distributed network that independently verifies transactions and maintains a shared transaction history.</p>
+<p>Its primary purpose is to function as decentralized digital money. However, Bitcoin is also widely viewed as a potential store of value because its protocol establishes a predictable issuance schedule and a maximum supply of 21 million BTC.</p>
+<h3>How Does Bitcoin Work?</h3>
+<p>Bitcoin operates on its own blockchain, where transactions are recorded in blocks and secured through a Proof of Work (PoW) consensus mechanism.</p>
+<p>Here's how a typical Bitcoin transaction works:</p>
+<ol>
+<li><strong>Transaction initiation:</strong> You use a Bitcoin wallet to send BTC to another wallet address.</li>
+<li><strong>Transaction broadcast:</strong> The transaction is shared with the Bitcoin network.</li>
+<li><strong>Verification:</strong> Nodes check whether the transaction follows Bitcoin's rules, including whether it uses valid, unspent transaction outputs.</li>
+<li><strong>Mining:</strong> Miners compete to find a valid block hash and propose new blocks containing valid transactions.</li>
+<li><strong>Block confirmation:</strong> Once a valid block is accepted, it becomes part of the blockchain. Additional blocks build on it, increasing confidence that the transaction will not be reversed.</li>
+</ol>
+<p>Bitcoin uses the <strong>Unspent Transaction Output (UTXO) model</strong> to track spendable funds.</p>
+<p>Rather than maintaining account balances in the same way as Ethereum, Bitcoin records outputs from previous transactions that can be spent in new transactions.</p>
+<p>For example, if you receive 1 BTC and later spend 0.4 BTC, your transaction may consume the original output and create two new outputs: 0.4 BTC for the recipient and the remaining amount, minus fees, as change returned to your wallet.</p>
+<p>This model is an important part of Bitcoin's transaction architecture.</p>
+<h3>Key Features of Bitcoin</h3>
+<ul>
+<li><strong>Limited supply:</strong> Bitcoin has a protocol-defined maximum supply of 21 million BTC.</li>
+<li><strong>Proof of Work:</strong> Miners secure the network through computational work.</li>
+<li><strong>Decentralization:</strong> Independent nodes verify transactions and enforce network rules.</li>
+<li><strong>Peer-to-peer payments:</strong> Users can transfer BTC without requiring a traditional payment processor.</li>
+<li><strong>Halving mechanism:</strong> Bitcoin's block subsidy is reduced by half approximately every 210,000 blocks, slowing the rate at which new BTC enters circulation.</li>
+</ul>
+<p>Bitcoin's relatively narrow focus is intentional. Its design prioritizes monetary integrity, predictable issuance, and security rather than supporting every type of decentralized application directly.</p>
+<h2>What Is Ethereum?</h2>
+<p>Ethereum is a decentralized blockchain platform launched in 2015. It was designed to extend blockchain functionality beyond digital payments by allowing developers to create and deploy smart contracts.</p>
+<p>Its native cryptocurrency is Ether (ETH).</p>
+<p>Unlike Bitcoin, which primarily focuses on peer-to-peer digital money, Ethereum provides a programmable environment where developers can build decentralized applications (dApps), financial protocols, digital marketplaces, and other blockchain-based services.</p>
+<p>This flexibility has made Ethereum one of the central ecosystems in Web3.</p>
+<h3>How Does Ethereum Work?</h3>
+<p>Ethereum operates through a network of nodes that maintain the blockchain's state and execute transactions according to the network's rules.</p>
+<p>It uses a Proof of Stake (PoS) consensus mechanism, where validators stake ETH to participate in securing the network.</p>
+<p>Here's how a typical Ethereum transaction works:</p>
+<ol>
+<li><strong>Transaction initiation:</strong> You use an Ethereum-compatible wallet to send ETH or interact with a smart contract.</li>
+<li><strong>Transaction broadcast:</strong> The transaction is shared with Ethereum's network.</li>
+<li><strong>Execution and validation:</strong> Nodes check the transaction's validity, and the Ethereum Virtual Machine (EVM) executes the relevant operations.</li>
+<li><strong>Block proposal:</strong> A selected validator proposes a block containing transactions.</li>
+<li><strong>Consensus and finality:</strong> Other validators participate in the consensus process, helping the network agree on the blockchain's state.</li>
+</ol>
+<p>Ethereum uses an <strong>account-based model</strong> rather than Bitcoin's UTXO model.</p>
+<p>It maintains account information, including balances, transaction nonces, and smart contract code and storage.</p>
+<p>One of Ethereum's most important components is the <strong>Ethereum Virtual Machine (EVM)</strong>. It provides the execution environment for smart contracts and enables developers to build applications that follow predefined rules.</p>
+<h3>Key Features of Ethereum</h3>
+<ul>
+<li><strong>Smart contracts:</strong> Programs that execute according to predefined conditions.</li>
+<li><strong>Proof of Stake:</strong> Validators secure the network by staking ETH.</li>
+<li><strong>Decentralized applications:</strong> Developers can build applications that operate through blockchain-based smart contracts.</li>
+<li><strong>ERC token standards:</strong> Ethereum supports standards such as ERC-20 for fungible tokens and ERC-721 for non-fungible tokens.</li>
+<li><strong>Gas fees:</strong> Users pay transaction fees in ETH to compensate for network computation and resource usage.</li>
+<li><strong>Programmability:</strong> Ethereum supports complex operations beyond basic cryptocurrency transfers.</li>
+</ul>
+<p>Ethereum's flexibility makes it useful for a wide range of applications, from decentralized exchanges to lending protocols and NFT marketplaces.</p>
+<h2>Bitcoin vs Ethereum: Key Differences Explained</h2>
+<p>Although Bitcoin and Ethereum share some foundational blockchain principles, their underlying designs and goals are different.</p>
+<p>Bitcoin is primarily designed to function as decentralized money. Ethereum is designed to support a programmable blockchain ecosystem.</p>
+<p>Here's a closer comparison.</p>
+<div class="article-table-wrap"><table><thead><tr>
+<th>Feature</th>
+<th>Bitcoin (BTC)</th>
+<th>Ethereum (ETH)</th>
+</tr></thead><tbody>
+<tr>
+<td>Launch year</td>
+<td>2009</td>
+<td>2015</td>
+</tr>
+<tr>
+<td>Primary purpose</td>
+<td>Peer-to-peer digital money</td>
+<td>Programmable blockchain platform</td>
+</tr>
+<tr>
+<td>Native cryptocurrency</td>
+<td>BTC</td>
+<td>ETH</td>
+</tr>
+<tr>
+<td>Consensus mechanism</td>
+<td>Proof of Work</td>
+<td>Proof of Stake</td>
+</tr>
+<tr>
+<td>Supply</td>
+<td>Maximum of 21 million BTC</td>
+<td>No fixed maximum supply</td>
+</tr>
+<tr>
+<td>Transaction model</td>
+<td>UTXO</td>
+<td>Account-based</td>
+</tr>
+<tr>
+<td>Smart contracts</td>
+<td>Limited scripting capabilities</td>
+<td>General-purpose smart contract functionality</td>
+</tr>
+<tr>
+<td>Network participants</td>
+<td>Miners and node operators</td>
+<td>Validators and node operators</td>
+</tr>
+<tr>
+<td>Transaction fees</td>
+<td>Paid in BTC</td>
+<td>Paid in ETH</td>
+</tr>
+<tr>
+<td>Main ecosystem</td>
+<td>Payments and monetary applications</td>
+<td>DeFi, NFTs, dApps, tokenization, and more</td>
+</tr>
+</tbody></table></div>
+<p>Let's examine the most important differences in more detail.</p>
+<h3>1. Purpose and Use Cases</h3>
+<p>The biggest difference between Bitcoin and Ethereum is what each network was designed to accomplish.</p>
+<p>Bitcoin focuses on decentralized digital money. It allows users to send and receive BTC without depending on a bank or payment company to maintain the underlying transaction ledger.</p>
+<p>Ethereum takes a broader approach. It provides infrastructure for developers to build applications that execute through smart contracts.</p>
+<p>For example, you can use Bitcoin to transfer value between wallets. On Ethereum, you can interact with a decentralized exchange, borrow cryptocurrency through a DeFi protocol, or purchase an NFT.</p>
+<p>This doesn't mean Bitcoin cannot support additional functionality or Ethereum cannot be used for payments. The distinction lies in their primary design priorities.</p>
+<h3>2. Consensus Mechanisms: Proof of Work vs Proof of Stake</h3>
+<p>Bitcoin and Ethereum use different methods to secure their networks and agree on transaction history.</p>
+<p><strong>Bitcoin uses Proof of Work (PoW).</strong></p>
+<p>Miners compete to find a valid block hash by repeatedly performing cryptographic calculations. This requires computational resources, specialized hardware, and electricity.</p>
+<p>The successful miner can propose a block and receive the applicable block subsidy and transaction fees.</p>
+<p>Proof of Work makes attacking Bitcoin's transaction history computationally expensive because an attacker would need to overcome the network's accumulated computational work.</p>
+<p><strong>Ethereum uses Proof of Stake (PoS).</strong></p>
+<p>Instead of mining, Ethereum relies on validators who stake ETH to participate in network consensus.</p>
+<p>Validators are selected to propose blocks and participate in attestation processes. Dishonest behavior can result in penalties, including the loss of some staked ETH through slashing.</p>
+<p>Ethereum transitioned from Proof of Work to Proof of Stake in September 2022, an upgrade commonly known as <em>The Merge</em>.</p>
+<p>The difference matters because each mechanism has distinct security assumptions, operating requirements, and resource demands.</p>
+<h3>3. Cryptocurrency Supply and Monetary Policy</h3>
+<p>Bitcoin and Ethereum also differ in how their native cryptocurrencies are issued.</p>
+<p>Bitcoin has a protocol-defined maximum supply of 21 million BTC.</p>
+<p>New BTC enters circulation through mining rewards, which decrease through scheduled halving events. This predictable supply schedule is one reason Bitcoin is often described as digital gold.</p>
+<p>Ethereum does not have a fixed maximum supply of ETH.</p>
+<p>Instead, its monetary policy combines new ETH issuance to reward validators with the burning of a portion of transaction fees.</p>
+<p>Ethereum introduced fee burning through EIP-1559 in August 2021. Under this mechanism, the base fee paid for transactions is removed from circulation.</p>
+<p>Depending on network activity and issuance, ETH supply can increase or decrease over time.</p>
+<p>This creates two different monetary models:</p>
+<ul>
+<li><strong>Bitcoin:</strong> Emphasizes a predetermined maximum supply and scheduled issuance reductions.</li>
+<li><strong>Ethereum:</strong> Uses a dynamic supply model influenced by staking rewards and transaction activity.</li>
+</ul>
+<p>Neither model automatically determines the market price of the cryptocurrency. Demand, adoption, liquidity, market conditions, and broader economic factors also matter.</p>
+<h3>4. Transaction Models: UTXO vs Account-Based</h3>
+<p>Another important difference between Bitcoin and Ethereum is how they track cryptocurrency ownership and transactions.</p>
+<p><strong>Bitcoin uses the UTXO model.</strong></p>
+<p>UTXO stands for Unspent Transaction Output. Bitcoin transactions consume existing outputs and create new ones.</p>
+<p>For example, if you spend part of a Bitcoin output, the transaction can create one output for the recipient and another as change returned to your wallet.</p>
+<p>This structure helps Bitcoin nodes verify that funds haven't been spent more than once.</p>
+<p><strong>Ethereum uses an account-based model.</strong></p>
+<p>Ethereum maintains account information, including balances, transaction nonces, and smart contract state.</p>
+<p>When you send ETH, the network updates the relevant account balances. When you interact with a smart contract, the Ethereum Virtual Machine executes the contract's instructions and updates the blockchain state where appropriate.</p>
+<p>The account-based model makes it easier to support complex programmable operations, which is central to Ethereum's smart contract ecosystem.</p>
+<h3>5. Smart Contracts and Programmability</h3>
+<p>Smart contracts are one of the clearest differences between Bitcoin and Ethereum.</p>
+<p>Bitcoin supports a scripting system that enables certain conditions and spending rules to be enforced. However, it isn't designed as a general-purpose smart contract platform in the same way as Ethereum.</p>
+<p>Ethereum was built with programmable smart contracts at its core.</p>
+<p>Developers can write smart contracts using programming languages such as Solidity and deploy them to the Ethereum network.</p>
+<p>These contracts can support:</p>
+<ul>
+<li>Decentralized exchanges.</li>
+<li>Lending and borrowing protocols.</li>
+<li>NFT marketplaces.</li>
+<li>Token issuance.</li>
+<li>Decentralized autonomous organizations (DAOs).</li>
+<li>On-chain gaming applications.</li>
+</ul>
+<p>For example, a decentralized exchange can use smart contracts to facilitate cryptocurrency swaps without relying on a centralized exchange to hold and manage every user's funds.</p>
+<p>This programmability is a major reason Ethereum supports such a broad range of Web3 applications.</p>
+<h3>6. Transaction Fees and Network Performance</h3>
+<p>Bitcoin and Ethereum calculate transaction fees differently.</p>
+<p>On Bitcoin, fees are generally influenced by the transaction's size in virtual bytes and the level of competition for limited block space.</p>
+<p>On Ethereum, transaction fees are measured in gas. Gas represents the computational resources required to execute a transaction or smart contract operation.</p>
+<p>Ethereum's fee structure includes two important components:</p>
+<ul>
+<li><strong>Base fee:</strong> The protocol-determined minimum fee per unit of gas required for transaction inclusion. This portion is burned.</li>
+<li><strong>Priority fee:</strong> An additional tip that incentivizes validators to include a transaction.</li>
+</ul>
+<p>The total transaction fee depends on the gas consumed and the applicable fee per unit of gas.</p>
+<p>A simple ETH transfer generally requires less gas than interacting with a complex smart contract.</p>
+<p>Neither network guarantees consistently low fees or instant transactions. Costs and confirmation times depend on network conditions and transaction demand.</p>
+<p>Both ecosystems also have scaling solutions designed to improve the user experience.</p>
+<p><strong>For Bitcoin:</strong> The Lightning Network enables faster, lower-cost payments through off-chain payment channels.</p>
+<p><strong>For Ethereum:</strong> Layer 2 networks process transactions outside the main Ethereum chain and use Ethereum for security, settlement, or data availability, depending on their architecture.</p>
+<h2>Understanding the Bitcoin and Ethereum Ecosystems</h2>
+<p>Comparing Bitcoin and Ethereum only by their native cryptocurrencies misses an important part of the picture.</p>
+<p>Each network has developed its own ecosystem of applications, infrastructure, developers, and supporting technologies.</p>
+<h3>The Bitcoin Ecosystem</h3>
+<p>The Bitcoin ecosystem revolves primarily around BTC, monetary applications, and infrastructure that supports Bitcoin transactions.</p>
+<p>Some important components include:</p>
+<p><strong>Bitcoin wallets:</strong> Wallets allow users to manage, receive, and send BTC. Examples include hardware wallets, mobile wallets, and desktop wallets.</p>
+<p><strong>Lightning Network:</strong> This Layer 2 payment network enables transactions through payment channels, helping reduce costs and settlement times for supported payments.</p>
+<p><strong>Bitcoin mining:</strong> Mining businesses and independent miners contribute computational power to secure the Bitcoin network.</p>
+<p><strong>Bitcoin exchanges:</strong> Cryptocurrency exchanges provide platforms where users can buy, sell, and trade BTC.</p>
+<p><strong>Ordinals and Runes:</strong> These protocols introduced additional ways to create inscriptions and token-like assets using Bitcoin's transaction and scripting infrastructure.</p>
+<p>Although Bitcoin's ecosystem has expanded, its primary focus remains decentralized money and the security of its monetary network.</p>
+<h3>The Ethereum Ecosystem</h3>
+<p>The Ethereum ecosystem is broader in terms of application development because of its smart contract capabilities.</p>
+<p>Some of its major components include:</p>
+<p><strong>Decentralized Finance (DeFi):</strong> Ethereum supports protocols for lending, borrowing, trading, and liquidity provision. Examples include Uniswap and Aave.</p>
+<p><strong>NFT marketplaces:</strong> Platforms such as OpenSea allow users to discover, buy, and sell NFTs across supported blockchain networks.</p>
+<p><strong>Stablecoins:</strong> Ethereum hosts widely used stablecoins, including USDC and USDT, which support payments, trading, and DeFi applications.</p>
+<p><strong>Decentralized autonomous organizations (DAOs):</strong> Smart contracts and governance tokens can help communities coordinate decisions and manage shared blockchain-based projects.</p>
+<p><strong>Layer 2 networks:</strong> Ecosystems such as Arbitrum and Optimism extend Ethereum's transaction capacity and offer alternative execution environments.</p>
+<p>These applications make Ethereum an important foundation for developers building decentralized services.</p>
+<h2>Bitcoin vs Ethereum: Which One Is Better?</h2>
+<p>There isn't a universal winner in the Bitcoin vs Ethereum comparison. The better choice depends on what you're trying to understand, use, or accomplish.</p>
+<p>If your main interest is decentralized digital money, Bitcoin is the more direct fit.</p>
+<p>If you're interested in smart contracts, DeFi, NFTs, and decentralized application development, Ethereum offers a more extensive programmable environment.</p>
+<p>Here's a practical breakdown:</p>
+<div class="article-table-wrap"><table><thead><tr>
+<th>Your goal</th>
+<th>More relevant ecosystem</th>
+<th>Why</th>
+</tr></thead><tbody>
+<tr>
+<td>Understanding digital money</td>
+<td>Bitcoin</td>
+<td>Designed specifically for peer-to-peer digital value</td>
+</tr>
+<tr>
+<td>Exploring smart contracts</td>
+<td>Ethereum</td>
+<td>Supports general-purpose programmable contracts</td>
+</tr>
+<tr>
+<td>Learning DeFi</td>
+<td>Ethereum</td>
+<td>Hosts a broad range of established DeFi protocols</td>
+</tr>
+<tr>
+<td>Understanding Proof of Work</td>
+<td>Bitcoin</td>
+<td>Uses mining to secure its network</td>
+</tr>
+<tr>
+<td>Understanding Proof of Stake</td>
+<td>Ethereum</td>
+<td>Uses ETH staking and validators</td>
+</tr>
+<tr>
+<td>Exploring NFTs</td>
+<td>Ethereum</td>
+<td>Supports widely used NFT token standards</td>
+</tr>
+<tr>
+<td>Exploring Bitcoin payments</td>
+<td>Bitcoin</td>
+<td>Supports BTC transfers and Lightning payments</td>
+</tr>
+<tr>
+<td>Building decentralized applications</td>
+<td>Ethereum</td>
+<td>Offers established smart contract development tools</td>
+</tr>
+</tbody></table></div>
+<p>It's also worth remembering that these ecosystems aren't necessarily competitors in every situation. They serve different purposes and can coexist within the wider cryptocurrency market.</p>
+<h2>Can Bitcoin and Ethereum Work Together?</h2>
+<p>Yes. Although Bitcoin and Ethereum operate independently, developments in blockchain interoperability are creating ways to connect their ecosystems.</p>
+<p>For example, cross-chain bridges can allow users to move token representations of assets between supported networks.</p>
+<p><strong>Wrapped Bitcoin (WBTC)</strong> is one example. It is an Ethereum-based token designed to represent Bitcoin held in custody. This allows users to gain exposure to BTC within Ethereum-based applications.</p>
+<p>However, WBTC isn't native Bitcoin. It introduces additional trust and custody considerations because the underlying BTC must be managed by the relevant custodians.</p>
+<p>Users also need to understand the risks associated with custodial arrangements, token redemption, and the smart contracts or infrastructure involved.</p>
+<p>Other projects are exploring ways to connect Bitcoin with decentralized applications and smart contract functionality.</p>
+<p>These developments highlight an important point: Bitcoin and Ethereum don't have to serve identical purposes to contribute to the same Web3 ecosystem.</p>
+<h2>Risks and Limitations of Bitcoin and Ethereum</h2>
+<p>Both networks have established security models, but using either ecosystem involves risks.</p>
+<h3>Bitcoin Risks</h3>
+<ul>
+<li><strong>Mining centralization:</strong> Concentration of mining power can create concerns about network influence and censorship.</li>
+<li><strong>Price volatility:</strong> BTC can experience significant market price fluctuations.</li>
+<li><strong>Transaction fees:</strong> Fees can increase when demand for block space rises.</li>
+<li><strong>Private key management:</strong> Losing access to your wallet's private keys can result in losing access to your BTC.</li>
+<li><strong>Limited programmability:</strong> Bitcoin's scripting capabilities are more restricted than Ethereum's general-purpose smart contract environment.</li>
+</ul>
+<h3>Ethereum Risks</h3>
+<ul>
+<li><strong>Smart contract vulnerabilities:</strong> Bugs in smart contracts can expose users to financial losses.</li>
+<li><strong>Gas fees:</strong> High network demand can make certain transactions expensive.</li>
+<li><strong>Staking risks:</strong> Validators can face penalties for violating protocol requirements.</li>
+<li><strong>Complexity:</strong> Interacting with smart contracts and decentralized applications requires understanding additional technical concepts.</li>
+<li><strong>Layer 2 risks:</strong> Different scaling networks introduce their own security assumptions, withdrawal mechanisms, and potential vulnerabilities.</li>
+</ul>
+<p>Neither Bitcoin nor Ethereum guarantees financial returns.</p>
+<p>Before interacting with either ecosystem, understand the risks associated with the network, wallet, application, and assets involved.</p>
+<h2>Frequently Asked Questions About Bitcoin vs Ethereum</h2>
+<h3>Is Bitcoin better than Ethereum?</h3>
+<p>Neither cryptocurrency is universally better.</p>
+<p>Bitcoin focuses on decentralized digital money and a predictable monetary supply. Ethereum focuses on programmable blockchain applications and smart contracts.</p>
+<p>Your preferred ecosystem depends on what you want to achieve.</p>
+<h3>Is Ethereum a cryptocurrency like Bitcoin?</h3>
+<p>Ethereum is a blockchain platform, while Ether (ETH) is its native cryptocurrency.</p>
+<p>Bitcoin refers to both the blockchain network and its native cryptocurrency, BTC.</p>
+<p>Both BTC and ETH are digital assets, but they serve different roles within their respective ecosystems.</p>
+<h3>Why is Bitcoin's supply limited to 21 million?</h3>
+<p>Bitcoin's protocol establishes a maximum supply of 21 million BTC.</p>
+<p>Its issuance schedule gradually reduces the number of new bitcoins entering circulation through halving events.</p>
+<p>This predictable monetary policy distinguishes Bitcoin from Ethereum, which doesn't have a fixed maximum ETH supply.</p>
+<h3>Does Ethereum use mining?</h3>
+<p>No. Ethereum no longer uses mining to secure its network.</p>
+<p>It transitioned from Proof of Work to Proof of Stake in September 2022. Validators now participate in network consensus by staking ETH.</p>
+<h3>Can Ethereum replace Bitcoin?</h3>
+<p>Ethereum isn't designed to perform exactly the same role as Bitcoin.</p>
+<p>Although ETH can be transferred and used as a digital asset, Ethereum's primary focus is supporting programmable applications.</p>
+<p>Bitcoin's monetary design and Ethereum's smart contract functionality serve different purposes, making direct replacement an oversimplification.</p>
+<h3>Why does Ethereum have greater programmability than Bitcoin?</h3>
+<p>Ethereum was designed to support general-purpose smart contracts.</p>
+<p>Its Ethereum Virtual Machine allows developers to deploy programs that execute according to predefined rules.</p>
+<p>Bitcoin uses a more limited scripting system that prioritizes transaction validation and monetary security rather than extensive application programmability.</p>
+<h3>Can you buy Bitcoin and Ethereum with the same wallet?</h3>
+<p>Some cryptocurrency wallets support both BTC and ETH, allowing users to manage both assets through one interface.</p>
+<p>However, not every wallet supports both networks. Always check network compatibility before sending cryptocurrency.</p>
+<p>Also, remember that Bitcoin addresses and Ethereum addresses use different formats and transaction systems.</p>
+<h3>Which is more decentralized: Bitcoin or Ethereum?</h3>
+<p>Both networks aim to operate without a central authority, but decentralization is difficult to measure using one metric.</p>
+<p>Bitcoin's decentralization involves factors such as mining distribution, node participation, and software development.</p>
+<p>Ethereum's involves validator distribution, node accessibility, client diversity, and governance.</p>
+<p>Their decentralization models have different strengths and trade-offs, so a meaningful comparison requires examining specific aspects of each network.</p>
+<h2>Final Thoughts</h2>
+<p>Bitcoin and Ethereum are two foundational pillars of the cryptocurrency industry, but their differences are what make each ecosystem important.</p>
+<p>Bitcoin focuses on decentralized digital money, with a fixed maximum supply, Proof of Work security, and a monetary system built around BTC.</p>
+<p>Ethereum takes a broader approach by providing a programmable blockchain where developers can build smart contracts, DeFi protocols, NFT marketplaces, and decentralized applications.</p>
+<p>Understanding these differences gives you a clearer picture of how Web3 works and why both networks continue to play important roles in the industry.</p>
+<p>As you explore cryptocurrency, look beyond BTC and ETH prices. Pay attention to their underlying technology, monetary policies, security models, and real-world applications.</p>
+<p>These are the fundamentals that help you understand what each blockchain actually brings to the table.</p>
+<h2>References and Further Reading</h2>
+<ol>
+<li><a href="https://developer.bitcoin.org/devguide/transactions.html" target="_blank" rel="noopener noreferrer">Bitcoin Developer Documentation – Transactions</a></li>
+<li><a href="https://developer.bitcoin.org/devguide/block_chain.html" target="_blank" rel="noopener noreferrer">Bitcoin Developer Documentation – Block Chain</a></li>
+<li><a href="https://ethereum.org/developers/docs/transactions/" target="_blank" rel="noopener noreferrer">Ethereum – Transactions</a></li>
+<li><a href="https://ethereum.org/developers/docs/consensus-mechanisms/pos/" target="_blank" rel="noopener noreferrer">Ethereum – Proof of Stake</a></li>
+<li><a href="https://ethereum.org/developers/docs/gas/" target="_blank" rel="noopener noreferrer">Ethereum – Gas and Fees</a></li>
+<li><a href="https://ethereum.org/developers/docs/intro-to-ether/" target="_blank" rel="noopener noreferrer">Ethereum – Introduction to Ether</a></li>
+<li><a href="https://ethereum.org/developers/docs/blocks/" target="_blank" rel="noopener noreferrer">Ethereum – Blocks</a></li>
+<li><a href="https://bitcoin.org/en/faq" target="_blank" rel="noopener noreferrer">Bitcoin.org – Frequently Asked Questions</a></li>
+</ol>
+<p><em>Written by FAWOLE TOLUWANIMI EZEKIEL | ZEEKWRITES</em></p>
+    </article>
+    <footer class="article-footer">
+      <p><strong>FAWOLE TOLUWANIMI EZEKIEL</strong> · ZEEKWRITES</p>
+      <p>Technical Content Writer &amp; EdTech Program Coordinator</p>
+      <p><a href="index.html#work">Return to portfolio</a></p>
+    </footer>
+  </main>
+</body>
+</html>
